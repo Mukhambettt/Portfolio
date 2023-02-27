@@ -1,0 +1,321 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web-developer</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+    rel="stylesheet" />
+  <link rel="shortcut icon" href="{% static 'images/logos.png' %}" type="image/x-icon" />
+</head>
+
+<body>
+  <section id="web_developer">
+    <div class="container">
+      <div class="header">
+        <img src="{% static 'images/logot.png' %}" alt="" class="header__logo" />
+        <a href="#skills">Навыки</a>
+        <a href="#slider">Портфолио</a>
+        <a href="#price">Прейскурант</a>
+        <a href="#feedback">Контакты</a>
+        <a href="tel:+79279268009">+7-700-674-69-22</a>
+      </div>
+      <div class="web_firstLine">
+        <p class="web">Backend</p>
+        <p class="web_name">Mukhambet Ali</p>
+      </div>
+      <div class="web_secondLine">разработчик</div>
+      <div class="web_buttons">
+        <a target="_blank" href="https://instagram.com/marselle.naz">
+          <button class="web_button_connect">СВЯЗАТЬСЯ</button>
+        </a>
+
+        <!-- <button class="web_button_work">РАБОТЫ</button> -->
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <img src="{% static 'images/bg_star.png' %}" alt="" class="skill_star" />
+    <div class="container">
+      <!-- <h1 class="skills_title">ЧТО Я ИСПОЛЬЗУЮ В РАБОТЕ</h1> -->
+      <h3 class="skills_text">НАВЫКИ</h3>
+      <div class="all_skills">
+        <div class="skill">
+          <div class="skill_back_box"></div>
+          <div class="skill_front_box">
+            <img src="{% static 'images/html.png' %}" alt="html5" class="front_box_img" />
+            <h4 class="front_box_title">HTML5</h4>
+            <p class="front_box_text">
+              Язык разметки, создает каркас вашего сайта или приложения.
+            </p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill_back_box"></div>
+          <div class="skill_front_box">
+            <img src="{% static 'images/css.png' %}" alt="css" class="front_box_img" />
+            <h4 class="front_box_title">CSS3</h4>
+            <p class="front_box_text">
+              Язык стилей позволяет создавать абсолютно любой внешний вид
+              сайта или приложения.
+            </p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill_back_box"></div>
+          <div class="skill_front_box">
+            <img src="{% static 'images/python.png' %}" alt="python" class="front_box_img w_img" />
+            <h4 class="front_box_title">Python</h4>
+            <p class="front_box_text">
+              Универсальный язык программирования
+            </p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill_back_box"></div>
+          <div class="skill_front_box">
+            <img src="{% static 'images/telegrambot.png' %}" alt="telegram_bot" class="front_box_img w_img" />
+            <h4 class="front_box_title">Telegram Bot</h4>
+            <p class="front_box_text">
+              Функциональная программа в приложении Telegram
+            </p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill_back_box"></div>
+          <div class="skill_front_box">
+            <img src="{% static 'images/postgresql.png' %}" alt="postgresql" class="front_box_img w_img" />
+            <h4 class="front_box_title">Postgresql</h4>
+            <p class="front_box_text">
+              Система управления базами данных
+            </p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill_back_box"></div>
+          <div class="skill_front_box">
+            <img src="{% static 'images/django.png' %}" alt="django" class="front_box_img w_img" />
+            <h4 class="front_box_title">Django</h4>
+            <p class="front_box_text">
+              Фреймворк для приложений на языке Python
+            </p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill_back_box"></div>
+          <div class="skill_front_box">
+            <img src="{% static 'images/rest.png' %}" alt="rest" class="front_box_img w_img" />
+            <h4 class="front_box_title">Rest</h4>
+            <p class="front_box_text">
+              Фреймворк для Django, поддерживающий идеологию REST
+            </p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill_back_box"></div>
+          <div class="skill_front_box">
+            <img src="{% static 'images/github.png' %}" alt="git" class="front_box_img w_img" />
+            <h4 class="front_box_title">GitHub</h4>
+            <p class="front_box_text">
+              Система управления проектами и версиями кода.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="slider">
+    <img src="{% static 'images/bg_moon.png' %}" alt="moon" class="slider__moon" />
+    <div class="slider__top container">
+      <!-- <h2 class="slider__title">Мои работы</h2> -->
+      <h2 class="slider__text">Портфолио</h2>
+    </div>
+    <div class="slider__slide">
+      <div class="slider__items">
+        <div class="slider__slide_link" style="left: -1260px">
+          <a href="#" target="_blank"><img src="{% static 'images/game.png' %}" alt="game" class="slider__slide_img" /></a>
+        </div>
+        <div class="slider__slide_link" style="left: -630px">
+          <a href="#" target="_blank"><img src="{% static 'images/style.png' %}" alt="style" class="slider__slide_img" /></a>
+        </div>
+        <div class="slider__slide_link" style="left: 0px">
+          <a href="#" target="_blank"><img src="{% static 'images/uber.png' %}" alt="uber" class="slider__slide_img" /></a>
+        </div>
+        <div class="slider__slide_link" style="left: 630px">
+          <a href="#" target="_blank"><img src="{% static 'images/batman.png' %}" alt="batman" class="slider__slide_img" /></a>
+        </div>
+        <div class="slider__slide_link" style="left: 1260px">
+          <a href="#" target="_blank"><img src="{% static 'images/dog.png' %}" alt="dog" class="slider__slide_img" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="slider__arrow">
+      <button class="slider__left">
+        <i class="bx bxs-chevron-left-circle"></i>
+      </button>
+      <button class="slider__right">
+        <i class="bx bxs-chevron-right-circle"></i>
+      </button>
+    </div>
+  </section>
+  <section id="price">
+    <img src="{% static 'images/bg_star2.png' %}" alt="star" class="price__star" />
+    <img src="{% static 'images/bg_uran.png' %}" alt="uran" class="price__uran" />
+    <div class="price__block container">
+      <div class="price__text">Beckend</div>
+      <ul class="price__item">
+        <li class="price__list">
+          <div class="price__descr">
+            <h3 class="price__descr_title">Landing-page</h3>
+            <p class="price__descr_text">
+              Одностраничный сайт для презентации услуг/товаров/...
+            </p>
+          </div>
+          <div class="price__cost">от 7000 руб.</div>
+        </li>
+        <li class="price__list">
+          <div class="price__descr">
+            <h3 class="price__descr_title">Корпоративный сайт</h3>
+            <p class="price__descr_text">
+              Сайт для вашего бизнеса или компании
+            </p>
+          </div>
+          <div class="price__cost">от 20000 руб.</div>
+        </li>
+        <li class="price__list">
+          <div class="price__descr">
+            <h3 class="price__descr_title">Интернет-магазин</h3>
+            <p class="price__descr_text">
+              Инструмент для ваших продаж в сети
+            </p>
+          </div>
+          <div class="price__cost">от 30000 руб.</div>
+        </li>
+      </ul>
+    </div>
+    <div class="price__block container">
+      <div class="price__text">Pазмещение</div>
+      <ul class="price__item">
+        <li class="price__list">
+          <div class="price__descr">
+            <h3 class="price__descr_title">Домен</h3>
+            <p class="price__descr_text">
+              Уникальное имя сайта в сети интернет
+            </p>
+          </div>
+          <div class="price__cost">от 500 руб.</div>
+        </li>
+        <li class="price__list">
+          <div class="price__descr">
+            <h3 class="price__descr_title">Хостинг</h3>
+            <p class="price__descr_text">
+              Услуга по предоставлению ресурсов для размещения информации на
+              сервере, постоянно имеющем доступ к сети
+            </p>
+          </div>
+          <div class="price__cost">от 2000 руб. в год</div>
+        </li>
+      </ul>
+    </div>
+    <div class="price__block container">
+      <div class="price__text">Другое</div>
+      <ul class="price__item">
+        <li class="price__list">
+          <div class="price__descr">
+            <h3 class="price__descr_title">Анализ данных</h3>
+            <p class="price__descr_text">
+              Анализ сайтов /Парсинг /БД т.д.
+            </p>
+          </div>
+          <div class="price__cost">от 2000 руб.</div>
+        </li>
+        <li class="price__list">
+          <div class="price__descr">
+            <h3 class="price__descr_title">Telegram Bot</h3>
+            <p class="price__descr_text">
+              От обычного Бота до профисианального т.д.
+            </p>
+          </div>
+          <div class="price__cost">от 2000 руб.</div>
+        </li>
+        <li class="price__list">
+          <div class="price__descr">
+            <h3 class="price__descr_title">Telagram Bot App</h3>
+            <p class="price__descr_text">
+              Инструмент для ваших продаж в сети т.д.
+            </p>
+          </div>
+          <div class="price__cost">от 25000 руб.</div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="feedback">
+    <div class="feedback__block container">
+      <!-- <div class="feedback__title">свяжитесь со мной</div> -->
+      <div class="feedback__text">контакты</div>
+      <div class="feedback__discr">
+        <h4>Любым удобным для вас способом:</h4>
+        <div class="feedback__discr_social">
+          <a href="https://wa.me/+77711320882" target="_blank"><i class="bx bxl-whatsapp"></i> </a>
+          <a href="https://t.me/MarselleNaz" target="_blank"><i class="bx bxl-telegram"></i>
+
+          </a>
+        </div>
+        <h4>Или оставьте ваши данные и я сам вам напишу:</h4>
+      </div>
+      <form method="post" class="feedback__form">
+        {% csrf_token %}
+        <input type="text" name="user_name" class="feedback__form_name" placeholder="Имя" />
+        <input type="email" name="user_email" class="feedback__form_email" placeholder="Почта" />
+        <textarea name="user_text" class="feedback__form_textarea" cols="30" rows="10"
+          placeholder="Сообщение"></textarea>
+        <div class="feedback__form_triggers">
+          <button class="feedback__form_btn" type="submit">
+            Отправить сообщение
+          </button>
+          <!-- <div class="feedback__form_police">
+            <input type="checkbox" />
+            <span>Я согласен(а) с
+              <a href="#" target="_blank" class="feedback__form_link">политикой конфиденциальности</a></span>
+          </div> -->
+        </div>
+      </form>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="foot">
+          <div class="foot_logo"><img src="{% static 'images/logos.png' %}" alt="" /></div>
+          <div class="foot_nav">
+            <a href="#price">Прейскурант</a>
+            <a href="#slider">Портфолио</a>
+            <a href="#skills">Навыки</a>
+          </div>
+          <div. class="foot_connect">
+            <a href="#feedback">Форма связи</a>
+            <a href="">Backend</a>
+          </div.>
+          <div class="foot_social">
+            <div class="foot_tel">+7-700-674-69-22</div>
+            <div class="foot_social_media">
+              <a href="https://wa.me/+77006746922" target="_blank">
+                <i class="bx bxl-whatsapp"></i> </a><a href="https://t.me/Mukhambettt" target="_blank"><i
+                  class="bx bxl-telegram"></i> </a>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>
